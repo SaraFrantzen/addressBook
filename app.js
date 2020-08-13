@@ -23,7 +23,7 @@ const  renderContacts = () => {
 			
 	  div.appendChild(ul)
 	} else {
-	  div.innerHTML = '<p>There are no contact in this adress book ... YET</p>'
+	  div.innerHTML = '<p>There are no contacts in this adress book ... YET</p>'
 	}
 }
 //change button color
