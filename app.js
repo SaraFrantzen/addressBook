@@ -26,11 +26,21 @@ const  renderContacts = () => {
 	  div.innerHTML = '<p>You have no contacts in your address book</p>'
 	}
 }
+//change button color
+
+let clickedButton = document.getElementById('add-contact');
+ turnButtonPurple = () => {
+    clickedButton.style.backgroundColor = '#990099';
+       }
+	   clickedButton.onclick = turnButtonPurple;
+
+
 document.addEventListener('DOMContentLoaded', () => {
 	renderContacts()
 	const  contactForm = document.getElementById('new-contact-form')
 	const  toggleFormVisibilityButton = document.getElementById('add-contact')
 	contactForm.style.display = 'none'
+
  
 	toggleFormVisibilityButton.addEventListener('click', () => {
 		if (contactForm.style.display === '') {
