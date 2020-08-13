@@ -15,7 +15,7 @@ const  renderContacts = () => {
 		  <span>${contact.name}</span> |
 		  <span>${contact.email}</span> |
 		  <span>${contact.phone}</span>
-		  <span>${contact.notes}</span>
+		  <span>${contact.github}</span>
 		  <span>${contact.instagram}</span>
 	    `
 	    ul.appendChild(li)
@@ -44,14 +44,13 @@ document.addEventListener('DOMContentLoaded', () => {
 		event.preventDefault()
 
 		// 1. Read all the input fields and get their values
-		const { name, email, phone, company, notes, instagram } = contactForm.elements
+		const { name, email, phone, github, instagram } = contactForm.elements
 
 		const  contact = {
 			name:  name.value,
 			email:  email.value,
 			phone:  phone.value,
-			company:  company.value,
-			notes:  notes.value,
+			github:  github.value,
 			instagram:  instagram.value,
 		}
 
