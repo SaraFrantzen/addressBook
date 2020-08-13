@@ -1,5 +1,39 @@
 
+button {
+    text-align: center;
+    background-color: #ff66ff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 20px;
+}
+button:hover{
+  font-size: 45px;
+  background-color:#990099;
+  transition: all 750ms;
+}
+
 h1 {
-    color: green
+    color: #ffb3ff;
+    font-family: 'Barrio', cursive; 
     
+}
+
+#new-contact-form {
+    display: inline-block;
+    font-size: 20px;
+}
+form, input {
+    height: 30px;
+    margin-top: 30px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#submit {
+     background-color:#990099;
+     color: white;
 }
