@@ -31,7 +31,7 @@ const  renderContacts = () => {
 let clickedButton = document.getElementById('add-contact');
  turnButtonPurple = () => {
 	clickedButton.style.backgroundColor = '#990099';
-	clickedButton.innerHTML = "Hide Form";
+	clickedButton.innerHTML = "Hide/Show Form";
        }
 	   clickedButton.onclick = turnButtonPurple;
 
