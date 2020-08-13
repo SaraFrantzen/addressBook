@@ -8,5 +8,5 @@ middleware: [superstatic({ stack: 'strict' })]
 },
 port: 3001,
 watch: true,
-files: ['./src/*.html', './src/**/*.css', './src/**/*.js']
+files: ['./src/*.html', './src/*.css', './src/**/*.js']
 });
