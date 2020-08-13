@@ -8,7 +8,7 @@ button {
     display: inline-block;
     font-size: 30px;
     cursor: pointer;
-    margin: 50px;
+    margin: 100px;
 
 }
 button:hover{
@@ -16,21 +16,35 @@ button:hover{
   background-color:#990099;
   transition: all 750ms;
 }
-
 h1 {
-  text-align: center;
-    color: #ffb3ff;
+  display: inline-block;
+  color: #ffb3ff;
+  margin-left: 200px;
+  margin-right: 60px;
+}
+h2 {
+  display: inline-block;
+}
+p {
+  font-family: monospace;
+  font-size: 20px;
+  position: relative;
+  left: 100px;
+  top: 50px; 
+}
+header {
     font-family: 'Barrio', cursive; 
-    
+    background-color: #ffe6ff;
 }
 
 #new-contact-form {
     display: inline-block;
     font-size: 20px;
+    font-family: monospace;
 }
 form, input {
     height: 30px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-right: 10px;
     display: inline-block;
 }

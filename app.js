@@ -14,8 +14,8 @@ const  renderContacts = () => {
 		li.innerHTML = `
 		  <span>${contact.name}</span> |
 		  <span>${contact.email}</span> |
-		  <span>${contact.phone}</span>
-		  <span>${contact.github}</span>
+		  <span>${contact.phone}</span> |
+		  <span>${contact.github}</span> |
 		  <span>${contact.instagram}</span>
 	    `
 	    ul.appendChild(li)
