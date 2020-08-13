@@ -2,6 +2,7 @@
 button {
     text-align: center;
     background-color: #ff66ff;
+    border: #990099;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -52,6 +53,10 @@ form, input {
 #submit {
      background-color:#990099;
      color: white;
+     
+      cursor: pointer;
+      border: none;
+
 }
 div {
   font-family: arial;
