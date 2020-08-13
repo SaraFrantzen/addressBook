@@ -8,7 +8,8 @@ button {
     display: inline-block;
     font-size: 30px;
     cursor: pointer;
-    margin: 20px;
+    margin: 50px;
+
 }
 button:hover{
   font-size: 45px;
@@ -17,6 +18,7 @@ button:hover{
 }
 
 h1 {
+  text-align: center;
     color: #ffb3ff;
     font-family: 'Barrio', cursive; 
     
